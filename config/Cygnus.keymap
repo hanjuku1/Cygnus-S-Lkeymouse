@@ -26,7 +26,6 @@
 #define JP_KANA         LANGUAGE_1       // かな
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角　鈴木記入ここまで
-
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 25
 #define MOUSE 4
 #define SCROLL 5
@@ -83,7 +82,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                           &kp Y        &kp U  &kp I      &kp O       &kp P
 &lt 5 A           &lt 4 S       &kp D         &kp F                        &kp G        &mkp RCLK                          &kp UP_ARROW    &kp H        &kp J  &kp K      &lt 4 L     &lt 5 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mkp LCLK                          &kp DOWN_ARROW  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp A        &mkp LCLK                          &kp DOWN_ARROW  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE   &lt 2 ENTER                                &kp DEL
             >;
 
