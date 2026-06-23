@@ -81,10 +81,12 @@
             tapping-term-ms = <200>;
         };
 
-        ROTATE: ROTATE {
+
+    rotate: rotate {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ROTATE";
-           #sensor-binding-cells = <0>;
+
+            #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
             tap-ms = <20>;
